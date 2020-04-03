@@ -19,7 +19,6 @@ before_script:
   - npm install -g now
 script:
   - ng build --prod --base-href https://WenJieChew-ISS.github.io/bitcoin-order-app/
-
   
 deploy:
   provider: pages
